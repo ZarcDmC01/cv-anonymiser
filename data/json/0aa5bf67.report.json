@@ -1,0 +1,67 @@
+{
+  "score_global": 38,
+  "extraction": {
+    "score": 97,
+    "chiffres": 1.0,
+    "annees": 1.0,
+    "mots": 0.9166666666666666,
+    "manquants": {
+      "chiffres": [],
+      "annees": [],
+      "mots": [
+        "email",
+        "nghiem",
+        "phone"
+      ]
+    }
+  },
+  "dossier": {
+    "score": 13,
+    "details": {
+      "structure": 0.0,
+      "chiffres": 0.83,
+      "annees": 1.0,
+      "competences": 0.08,
+      "semantique": 0.23
+    },
+    "cosinus": 0.594,
+    "couverture_lexicale": 0.03,
+    "manquants": {
+      "structure": [
+        "expériences: Quản lý kho/ Thủ kho",
+        "expériences: Kiến tập - Hỗ trợ Admin kho",
+        "formations: Cử nhân"
+      ],
+      "chiffres": [
+        "08202"
+      ],
+      "competences": [
+        "Admin: Làm việc trực tiếp với các phòng ban để đảm bảo xử lý thông tin và công việc đạt hiệu quả cao",
+        "Báo cáo các thông tin về việc phát sinh",
+        "Bố trí, sắp xếp lịch và hàng hóa nhập kho, xuất kho",
+        "Duy trì số liệu xuất/nhập hàng qua hệ thống quản lý kho Appsheat và Excel",
+        "Kiểm tra theo dõi kế hoạch từ NCC",
+        "Lưu trữ chứng từ",
+        "Sắp xếp hàng hóa",
+        "Thực hiện kiểm kê hàng hóa, nguyên vật liệu, vật tư và đặt hàng NVL",
+        "Tối ưu hóa quy trình kho bãi",
+        "Xuất hàng hóa đúng theo đơn",
+        "Đảm bảo việc nhận đơn và điều phối nhân lực"
+      ]
+    },
+    "ajouts_suspects": {
+      "outils": [
+        "Coordination des équipes",
+        "ERP",
+        "Gestion des stocks",
+        "Optimisation des processus logistiques",
+        "Saisie et organisation des marchandises",
+        "Suivi des livraisons",
+        "Systèmes de gestion des livraisons",
+        "Systèmes de gestion des stocks",
+        "logiciels de gestion des livraisons"
+      ]
+    },
+    "penalite": 20
+  }
+}

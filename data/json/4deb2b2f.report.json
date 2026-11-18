@@ -1,0 +1,74 @@
+{
+  "score_global": 65,
+  "extraction": {
+    "score": 78,
+    "chiffres": 0.6666666666666667,
+    "annees": 0.9090909090909091,
+    "mots": 0.8200000000000001,
+    "manquants": {
+      "chiffres": [
+        "4"
+      ],
+      "annees": [
+        "2022"
+      ],
+      "mots": [
+        "address",
+        "analysis",
+        "april",
+        "background",
+        "birthday",
+        "certifications",
+        "chung",
+        "course",
+        "defect",
+        "educational",
+        "email",
+        "experience",
+        "internship",
+        "languages",
+        "measurement",
+        "mlops",
+        "mobile",
+        "monitor",
+        "months.",
+        "online"
+      ]
+    }
+  },
+  "dossier": {
+    "score": 60,
+    "details": {
+      "structure": 0.58,
+      "chiffres": null,
+      "annees": 1.0,
+      "competences": 0.91,
+      "semantique": 0.93
+    },
+    "cosinus": 0.871,
+    "couverture_lexicale": 0.31,
+    "manquants": {
+      "structure": [
+        "formations: Mechatronic and Sensor System Technology",
+        "formations: MBA [ETABLISSEMENT_2]",
+        "langue: English",
+        "langue: Chinese",
+        "langue: Vietnamese"
+      ],
+      "competences": [
+        "protocol"
+      ]
+    },
+    "ajouts_suspects": {
+      "chiffres": [
+        "03",
+        "05",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    "penalite": 20
+  }
+}

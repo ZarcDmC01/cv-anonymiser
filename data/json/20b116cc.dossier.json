@@ -1,0 +1,88 @@
+{
+  "titre": "Nhân Viên Kế Toán",
+  "annees_experience": 11,
+  "synthese": "Ce profil, avec 11 ans d'expérience dans le secteur public et l'industrie, a suivi des processus comptables complexes et optimiser les opérations financières. Ce profil a également amélioré la gestion des données financières en réduisant le temps de traitement des rapports.",
+  "competences_cles": [
+    "Thành thạo tin học văn phòng",
+    "Excel",
+    "VBA",
+    "SQL"
+  ],
+  "experiences": [
+    {
+      "poste": "Nhân viên Kế Toán",
+      "secteur": "Secteur public",
+      "debut": "02/2024",
+      "fin": "08/2024",
+      "realisations": [
+        "Xuất hóa đơn VAT",
+        "Theo dõi công nợ phải thu và phải trả",
+        "Theo dõi nhập xuất tồn nguyên vật liệu",
+        "Theo dõi đơn hàng và mua nguyên vật liệu",
+        "Chấm công và tính lương cho nhân viên"
+      ],
+      "environnement": "Excel, VBA"
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "secteur": "Industrie",
+      "debut": "11/2019",
+      "fin": "6/2020",
+      "realisations": [
+        "Xuất hóa đơn VAT",
+        "Làm báo cáo và nộp thuế: VAT, TNCN, TNDN, thuế nhà thầu",
+        "Lập tờ khai quyết toán thuế TNCN và thuế TNDN",
+        "Đăng kí mã số thuế TNCN và giảm trừ gia cảnh cho nhân viên",
+        "Thực hiện các giao dịch ngân hàng",
+        "Theo dõi công nợ phải thu",
+        "Hạch toán thu chi tiền mặt"
+      ],
+      "environnement": "Excel, VBA"
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "secteur": "Mutuelle / santé",
+      "debut": "10/2018",
+      "fin": "10/2019",
+      "realisations": [
+        "Xuất hóa đơn và làm báo cáo thuế VAT",
+        "Mua nguyên liệu sản xuất",
+        "Thực hiện các giao dịch ngân hàng",
+        "Tính giá thành sản phẩm",
+        "Hạch toán thu chi hằng ngày",
+        "Chấm công và tính lương cho nhân viên",
+        "Theo dõi công nợ phải thu và phải trả"
+      ],
+      "environnement": "Excel, VBA"
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "secteur": "Secteur public",
+      "debut": "9/2015",
+      "fin": "8/2018",
+      "realisations": [
+        "Xuất hóa đơn VAT",
+        "Thực hiện các giao dịch ngân hàng",
+        "Theo dõi công nợ phải thu và phải trả",
+        "Chấm công và tính lương cho nhân viên"
+      ],
+      "environnement": "Excel, VBA"
+    }
+  ],
+  "formations": [
+    {
+      "annee": "2014",
+      "diplome": "Đại học",
+      "type_etablissement": "Université"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Tiếng Anh",
+      "niveau": "Sơ cấp"
+    }
+  ],
+  "certifications": [
+    "Chứng chỉ B Tin học"
+  ]
+}

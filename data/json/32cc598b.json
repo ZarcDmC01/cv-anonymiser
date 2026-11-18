@@ -1,0 +1,306 @@
+{
+  "identite": {
+    "prenom": "Akhilesh",
+    "nom": "Kumar Tiwari",
+    "titre": "(Global IT Program & Delivery Management)",
+    "email": "",
+    "telephone": "",
+    "adresse": "Villa# 210, Phase 2, Sector 54, S.A.S. Nagar, Mohali, Chandigarh",
+    "ville": "",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": ""
+  },
+  "profil": "Vision driven IT Professional with 20+ years of IT experience including working abroad for 7 years in USA, UK, Vietnam & Saudi Arabia. Proven track record in global IT Project, Program & Delivery Management. Expertise in heading various software engineering teams in India & Abroad.",
+  "experiences": [
+    {
+      "poste": "Senior Consultant, Project Manager IT – (Advisory Role)",
+      "entreprise": "Genisys Information Systems Pvt. Ltd.",
+      "lieu": "",
+      "debut": "09/2021",
+      "fin": "Till Date",
+      "description": [
+        "Working with Hewlett Packard Enterprise (HP – India) on a payroll of Genisys Information Systems (India) Pvt. Ltd. For HPe client Haryana Police Head Quarter, Panchkula for HCCTNS Project."
+      ]
+    },
+    {
+      "poste": "Delivery Director IT - (Advisory Role)",
+      "entreprise": "Mantra Labs Pvt. Ltd.",
+      "lieu": "",
+      "debut": "12/2020",
+      "fin": "05/2021",
+      "description": [
+        "Lead high-performing software engineering team, empowered teams to deliver with velocity, quality for Web, Mobile AWS & 24*7 Production Support."
+      ]
+    },
+    {
+      "poste": "Co-Founder & Delivery Director IT",
+      "entreprise": "iNCOVIO Information Technologies Services",
+      "lieu": "",
+      "debut": "08/2018",
+      "fin": "12/2020",
+      "description": [
+        "Managed IT projects for international clients worldwide from project kick-off to E2E program management delivery to accomplish organizational business goals and objectives."
+      ]
+    },
+    {
+      "poste": "IT Head / IT Manager (Contractual) - Saudi Arabia",
+      "entreprise": "Delta International Fashion, Square9",
+      "lieu": "",
+      "debut": "08/2017",
+      "fin": "07/2018",
+      "description": [
+        "Managed E2E implementation of 3 IT projects Oracle Retail MOM Application (Ver 16.01), Micros Xstore (Ver 16.0), EBS - Oracle Financials (Ver 12.2.6) for world class retail brands of Sweden (Lindex) & Turkey (DeFacto, Soobe, Derimod, Chicco & Hummel)."
+      ]
+    },
+    {
+      "poste": "Project Delivery Manager IT (Contractual)",
+      "entreprise": "Focus Infotech, incadea",
+      "lieu": "",
+      "debut": "04/2015",
+      "fin": "03/2016",
+      "description": [
+        "Worked on Puma BAU project-delivery management of KCP Dynamics client Trafigura Geneva, Switzerland & Johannesburg, South Africa."
+      ]
+    },
+    {
+      "poste": "Delivery Director, IT Head (Contractual) - Vietnam",
+      "entreprise": "Sequent Asia IT, Saitex International",
+      "lieu": "",
+      "debut": "11/2012",
+      "fin": "06/2014",
+      "description": [
+        "Set up SAI Digital, large ODC in Vietnam. Managed multiple IT projects across technologies."
+      ]
+    },
+    {
+      "poste": "Delivery Manager IT",
+      "entreprise": "UnitedHealth Group (UHG)",
+      "lieu": "India & USA",
+      "debut": "03/2007",
+      "fin": "01/2010",
+      "description": [
+        "Set up UnitedHealth Care India Offshore Development Center - Ramped up large team(s) while consistently maintaining 0 attrition for 3 consecutive years.",
+        "Transitioned 18 Projects from USA to India, delivered all IT projects ranked outstanding in vital sign survey."
+      ]
+    },
+    {
+      "poste": "Sr. Project Manager IT",
+      "entreprise": "Tech Mahindra Ltd. (European H.Q.)",
+      "lieu": "Milton Keynes, UK",
+      "debut": "06/2006",
+      "fin": "03/2007",
+      "description": [
+        "Onsite deployment to UK, worked with Line of Business managers pan British Telecom but more specifically within Openreach.",
+        "Helped Customer to fully utilize IM/KM systems (INFORMe & eAssistant). Delivered 'CAT' & 'VVnT' projects for BT FFS taskforce."
+      ]
+    },
+    {
+      "poste": "Senior Project Manager IT",
+      "entreprise": "HCL Technologies Ltd. (India - Corporate & Head Office)",
+      "lieu": "",
+      "debut": "01/2006",
+      "fin": "06/2006",
+      "description": [
+        "Coordinated design and development of Corp MIS web application at Noida, India for Corporate MIS department."
+      ]
+    },
+    {
+      "poste": "Manager Technology (Applications)",
+      "entreprise": "EXL (India) Private Limited",
+      "lieu": "",
+      "debut": "04/2005",
+      "fin": "01/2006",
+      "description": [
+        "Managed software development IT projects along with Quality Management System (QMS) project, 120 SDLC processes, CMM Level 5 Implementation in Application Management Group."
+      ]
+    },
+    {
+      "poste": "Technical Manager - Microsoft .Net",
+      "entreprise": "R Systems International Limited",
+      "lieu": "",
+      "debut": "10/2004",
+      "fin": "03/2005",
+      "description": [
+        "Delivered California Air Resource Board (CARB) application to USA customer."
+      ]
+    },
+    {
+      "poste": "Team Leader – Microsoft .Net",
+      "entreprise": "Path Infotech Limited",
+      "lieu": "",
+      "debut": "08/2003",
+      "fin": "10/2004",
+      "description": [
+        "Development of Insurance, Banking and Finance IT projects for clients CitiFinancial (Citi Bank), Max New York Life Insurance Ltd."
+      ]
+    },
+    {
+      "poste": "Senior Software Engineer - Microsoft Technologies",
+      "entreprise": "RSB Systems Pvt. Ltd.",
+      "lieu": "",
+      "debut": "04/1995",
+      "fin": "07/2003",
+      "description": [
+        "Responsible for the development of multiple IT projects like Inventory & Billing systems, Payroll systems, Sales Services Information Systems, Airlines Ticketing Management Applications & Hotel Management etc. using Microsoft Technologies."
+      ]
+    },
+    {
+      "poste": "Software Delivery Director",
+      "entreprise": "Sequent Asia IT Ltd., SAI-Digital",
+      "lieu": "Ho Chi Minh City, Vietnam",
+      "debut": "",
+      "fin": "",
+      "description": [
+        "Set up Offshore Development Center (ODC) from very scratch in Vietnam.",
+        "Built a world-class finest Software Engineering IT Team of 200+ Full-Time Employees (FTEs) across multiple technologies: [Hybris E-Commerce, Microsoft Dynamics NAV 2013, Microsoft Dynamics AX CRM, Microsoft .Net, Java / J2EE, Spring, Hibernate, Oracle, BO, SQL Server, SSIS, MS Reporting, SAS, Mainframe, ETL, DW / BI, QA] related projects using Agile Scrum Méthodologies as a Head of IT Software Development accros entire organization",
+        "Managed End to End program & delivery of all the software development IT projects (Large, Medium, Small) in above technologies",
+        "Delivered 5 international large E-Commerce program execution using Hybris platform web application portal / mobile apps development IT projects (Android *ios) including group of companies (2nd largest E-Commerce company world-wide)",
+        "Managed 5 E-Commerce application program development for ICF International clients E2E delivery as a Director IT, Program Management – Asia Pacific from project kick-off to final implementation in all 5 countries (USA, Canada, Spain, China & Australia)"
+      ]
+    },
+    {
+      "poste": "Delivery Manager IT",
+      "entreprise": "UnitedHealth Group",
+      "lieu": "",
+      "debut": "",
+      "fin": "",
+      "description": [
+        "Set up Gurgaon, India Captive, Offshore Development Center (ODC) of United Healthcare USA Business vertical while building a high performing Software Engineering Team from 0 to 177 billable resources as a Single Point of Contact (SPOC) from India for Global IT Program & Delivery Management position within my portfolio",
+        "Coordinated for transitioning 18 IT projects from USA to India in 15 months across multiple technologies while building business vertical of UnitedHealth Care USA projects Offshore Development Center (ODC). Hired, Build and Managed a world class IT Team from very scratch while leading UnitedHealth Group (UHG) Gurgaon, India captive",
+        "Achieved '0%' staff attrition in my core software development, IT Infra 24*7 support team of 177 resources for 3 years continuously. Not even a single resource resigned from my UnitedHealth Care India team within three years of my tenure"
+      ]
+    },
+    {
+      "poste": "Sr. Project Manager IT",
+      "entreprise": "Tech Mahindra European Headquarter, Milton Keynes UK",
+      "lieu": "",
+      "debut": "",
+      "fin": "",
+      "description": [
+        "Deputed to UK onsite for Information / Knowledge Management Portal INFORMe comprising 53 application projects for British Telecom. Coordinated customers at Sr. Management level including Vice President IT, CIO, CTO, Sr. Program Director IT",
+        "Built a team of 90 for INFORMe & eAssistant project comprising 72 offshore and 18 onsite members including 18 Direct Reports (14 British Telecom Delivery Managers and 4 Tech Mahindra Delivery Managers) were reported to me directly",
+        "Managed multiple deliveries in tandem. Reported project status meeting to BT PMO for 53 different projects INFORMe portal",
+        "Supervise activities of Project & Delivery Managers, ensuring regular reporting to the British Telecom PMO",
+        "Worked with the Line of Business (LoB) Managers pan British Telecom, London Head Quarter within Openreach and supporting the client to fully utilize the IM/KM systems (INFORMe & eAssistant), identify value add changes / new additions, proactively or at Customers direction covering entire country (UK)"
+      ]
+    },
+    {
+      "poste": "",
+      "entreprise": "",
+      "lieu": "",
+      "debut": "",
+      "fin": "",
+      "description": [
+        "Worked with delivery team to: Created design specification documentation and clarify any changes to design or advice on new design & ensure all stages of testing take place. Oversee Deployment involving handover to the client & support. Proactively seek customer sign off. Managed post-deployment Change Requests to successful conclusion; and IM/KM products in-life (BAU). Represented Information Management programme at key forums / boards pan Openreach, BT and Customers requirement."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Master Diploma in Information Technology",
+      "etablissement": "Tata Infotech Limited (Formerly known as Tata Unisys)",
+      "lieu": "",
+      "annee": "3 Years Duration",
+      "details": ""
+    },
+    {
+      "diplome": "B.A. (English)",
+      "etablissement": "University of Delhi",
+      "lieu": "",
+      "annee": "",
+      "details": ""
+    }
+  ],
+  "competences": [
+    "Program Management",
+    "Large IT Program Execution / Platform Development - E2E Projects Delivery",
+    "on various model & technologies with accountability on overall P&L",
+    "Built, Led Large Software Engineering Team - Ramp-up large-scale Offshore Development Centers led hiring, training, managed hierarchy of teams",
+    "Operations Management – Set up process as per ITIL standards - Incident/problem management, best practices (knowledge & automation)",
+    "Internal & External communication – Ensuring engagement of relevant stakeholders including customer and vendor. Status reporting up to C level",
+    "Retail, E-Commerce, Health Care, Insurance, Telecom, Banking & Finance",
+    "AWS, ReactJS, React Native, SQLite, SAP Hybris, Microsoft .Net, MS Dynamics NAV, MS SQL Server, SSRS, Java / J2EE, Oracle MOM, BO, SAS, AI & Blockchain",
+    "Delivery Manager IT",
+    "Sr. Project Manager IT",
+    "Senior Project Manager IT",
+    "Manager Technology (Applications)",
+    "Technical Manager - Microsoft .Net",
+    "Team Leader – Microsoft .Net",
+    "Senior Software Engineer - Microsoft Technologies",
+    "Hybris E-Commerce",
+    "Microsoft Dynamics NAV 2013",
+    "Microsoft Dynamics AX CRM",
+    "Microsoft .Net",
+    "Java / J2EE",
+    "Spring",
+    "Hibernate",
+    "Oracle",
+    "BO",
+    "SQL Server",
+    "SSIS",
+    "MS Reporting",
+    "SAS",
+    "Mainframe",
+    "ETL",
+    "DW / BI",
+    "QA",
+    "Agile Scrum Méthodologies"
+  ],
+  "langues": [],
+  "projets": [
+    {
+      "nom": "UnitedHealth Care India Offshore Development Center",
+      "description": ""
+    },
+    {
+      "nom": "CAT & VVNt projects for BT FFS taskforce",
+      "description": ""
+    },
+    {
+      "nom": "Corp MIS web application at Noida, India",
+      "description": ""
+    },
+    {
+      "nom": "California Air Resource Board (CARB) application",
+      "description": ""
+    },
+    {
+      "nom": "Hybris MMCN (Media Markt Shanghai, China) project",
+      "description": "E-Commerce mobile application development in both (Android & IOS) with team size of 7 resources based out in Vietnam and New York, USA"
+    },
+    {
+      "nom": "Hybris Angus & Robertson (Australia) project",
+      "description": "Team of 1 Program Manager, 2 Hybris Solution Architect along with the 25 members team size (13 team members in Vietnam and 12 team members based out of Valencia, Spain)"
+    },
+    {
+      "nom": "Hybris Wurth USA E-Commerce project",
+      "description": "Team size of 7 resources, 1 Project Manager, 2 Hybris Technical Leads along with 4 team members in Vietnam and 3 team members based out of New York, USA, and Canada"
+    },
+    {
+      "nom": "Hybris Harry Rosen (Canada) project",
+      "description": "Deployed their web site of Ecommerce with my core team of 9 resources based out in Vietnam, New York, Chicago USA, and Canada"
+    },
+    {
+      "nom": "E-Commerce Hybris, Target (Australia) project",
+      "description": "Team of 10 resources, 7 based out in Ho Chi Minh City, Vietnam and 3 resources were at onsite North Geelong Australia"
+    },
+    {
+      "nom": "mylife",
+      "description": "Developed by SOLCORP - Canada"
+    }
+  ],
+  "certifications": [
+    "PAHM Certified - Healthcare Management Academy USA",
+    "Business Computing - Brilliant’s Computer Centre",
+    "Database Management System - India Education Centre",
+    "Certified in Basics of C# Programming - NIIT",
+    "Microsoft Certified Visual Basic .Net - Microsoft USA",
+    "Microsoft Certified",
+    "Six Sigma Green Belt - R Systems International Limited",
+    "PMI Certified Project Management Training - Astrowix",
+    "Microsoft Project (MSP) Certified - Acelentia Consulting"
+  ],
+  "centres_interet": []
+}

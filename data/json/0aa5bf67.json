@@ -1,0 +1,73 @@
+{
+  "identite": {
+    "prenom": "Minh",
+    "nom": "Vương",
+    "titre": "",
+    "email": "Kho Sản Xuất - Kho Dịch Vụ",
+    "telephone": "2002",
+    "adresse": "Bình Trị Đông B - Bình Tân",
+    "ville": "Phú Yên",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": ""
+  },
+  "profil": "Là một sinh viên tốt nghiệp chuyên ngành Logistics, tôi mong muốn tìm kiếm cơ hội làm việc trong ngành kho vận. Tôi áp dụng kiến thức học thuật và kỹ năng quản lý tồn kho, sắp xếp hàng hóa, và tối ưu hóa quy trình kho bãi để đóng góp vào hiệu quả hoạt động của công ty. Tôi cam kết phát triển bản thân, học hỏi từ môi trường làm việc chuyên nghiệp và đóng góp vào sự phát triển bền vững của doanh nghiệp.",
+  "experiences": [
+    {
+      "poste": "Quản lý kho/ Thủ kho",
+      "entreprise": "Công ty TNHH Logistics Minh Việt - Tân Tạo - Bình Tân",
+      "lieu": "",
+      "debut": "03.2024",
+      "fin": "08.2024",
+      "description": [
+        "- Quản lý hoạt động kho: xuất - nhập và tổ chức sắp xếp, bảo quản hàng hóa, thống kê, kiểm soát số liệu, theo dõi hàng tồn kho.",
+        "- Kiểm tra theo dõi kế hoạch từ NCC, lưu trữ chứng từ, duy trì số liệu xuất/nhập hàng qua hệ thống quản lý kho Appsheat và Excel.",
+        "- Đảm bảo việc nhận đơn và điều phối nhân lực, xuất hàng hóa đúng theo đơn, kịp thời với yêu cầu - chính sách của nền tảng, chính xác đảm bảo chất lượng, số lượng.",
+        "- Bố trí, sắp xếp lịch và hàng hóa nhập kho, xuất kho.",
+        "- Thực hiện kiểm kê hàng hóa, nguyên vật liệu, vật tư và đặt hàng NVL để đáp ứng nhu cầu.",
+        "- Admin: Làm việc trực tiếp với các phòng ban để đảm bảo xử lý thông tin và công việc đạt hiệu quả cao. Báo cáo các thông tin về việc phát sinh."
+      ]
+    },
+    {
+      "poste": "Kiến tập - Hỗ trợ Admin kho",
+      "entreprise": "Công ty HANARO TNS/ KHO LOGIS VALLEY",
+      "lieu": "",
+      "debut": "06.2023",
+      "fin": "07.2023",
+      "description": [
+        "- Thực hiện hỗ trợ theo quy trình xuất/nhập hàng hóa.",
+        "- Hỗ trợ Admin kho trong chứng từ, nhập liệu vào tồn kho hệ thống.",
+        "- Thực hiện đối chiếu, kiểm kê mỗi ngày và báo cáo số liệu mỗi ngày.",
+        "- Thực hiện các công việc phát sinh khác theo yêu cầu cấp trên."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Cử nhân",
+      "etablissement": "Trường Đại Học Giao Thông Vận Tải Phân Hiệu Tại TP.Hồ Chí Minh",
+      "lieu": "",
+      "annee": "2020 - 2024",
+      "details": "Chuyên ngành: Logistics và quản lý chuỗi cung ứng"
+    }
+  ],
+  "competences": [
+    "Quản lý tồn kho",
+    "Sắp xếp hàng hóa",
+    "Tối ưu hóa quy trình kho bãi",
+    "Kiểm tra theo dõi kế hoạch từ NCC",
+    "Lưu trữ chứng từ",
+    "Duy trì số liệu xuất/nhập hàng qua hệ thống quản lý kho Appsheat và Excel",
+    "Đảm bảo việc nhận đơn và điều phối nhân lực",
+    "Xuất hàng hóa đúng theo đơn",
+    "Bố trí, sắp xếp lịch và hàng hóa nhập kho, xuất kho",
+    "Thực hiện kiểm kê hàng hóa, nguyên vật liệu, vật tư và đặt hàng NVL",
+    "Admin: Làm việc trực tiếp với các phòng ban để đảm bảo xử lý thông tin và công việc đạt hiệu quả cao",
+    "Báo cáo các thông tin về việc phát sinh"
+  ],
+  "langues": [],
+  "projets": [],
+  "certifications": [],
+  "centres_interet": []
+}

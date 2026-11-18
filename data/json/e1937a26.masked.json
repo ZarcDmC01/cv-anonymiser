@@ -1,0 +1,108 @@
+{
+  "identite": {
+    "prenom": "",
+    "nom": "",
+    "titre": "Développeur Full-Stack senior",
+    "email": "",
+    "telephone": "",
+    "adresse": "",
+    "ville": "",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": ""
+  },
+  "profil": "8 ans d'expérience en développement d'applications web (Java Spring Boot, Angular) dans l'assurance, l'e-commerce et le secteur public. Passionné par la qualité logicielle (TDD, CI/CD) et l'automatisation des déploiements (Docker, Kubernetes, GitLab CI).",
+  "experiences": [
+    {
+      "poste": "Développeur Full-Stack senior",
+      "entreprise": "[ENTREPRISE_1]",
+      "lieu": "[VILLE]",
+      "debut": "mars 2021",
+      "fin": "",
+      "description": [
+        "Refonte de l'espace client (Angular 16, Spring Boot 3) utilisé par 450 000 sociétaires.",
+        "Pipelines GitLab CI/CD et déploiement sur Kubernetes (OpenShift) : livraison hebdomadaire au lieu de trimestrielle.",
+        "Encadrement technique de 3 développeurs juniors, revues de code."
+      ]
+    },
+    {
+      "poste": "Développeur Java",
+      "entreprise": "[ENTREPRISE_2]",
+      "lieu": "[VILLE]",
+      "debut": "Septembre 2018",
+      "fin": "février 2021",
+      "description": [
+        "Développement de micro-services de gestion des commandes et des paiements (Stripe).",
+        "Optimisation des performances : temps de réponse de l'API divisé par 3."
+      ]
+    },
+    {
+      "poste": "Développeur web",
+      "entreprise": "[ENTREPRISE_3]",
+      "lieu": "[VILLE]",
+      "debut": "2016",
+      "fin": "2018",
+      "description": [
+        "Maintenance d'applications métiers (aides sociales), migration PHP vers Java."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Diplôme d'ingénieur en informatique",
+      "etablissement": "[ETABLISSEMENT_1]",
+      "lieu": "",
+      "annee": "2016",
+      "details": ""
+    },
+    {
+      "diplome": "DUT Informatique",
+      "etablissement": "[ETABLISSEMENT_2]",
+      "lieu": "",
+      "annee": "2013",
+      "details": ""
+    }
+  ],
+  "competences": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "Bash",
+    "Spring Boot",
+    "Angular",
+    "React",
+    "Docker",
+    "Kubernetes",
+    "GitLab CI",
+    "Jenkins",
+    "TDD",
+    "JUnit",
+    "Cypress",
+    "SonarQube",
+    "PHP",
+    "Java EE",
+    "Oracle",
+    "Redis",
+    "AWS (EC2, S3)",
+    "Mentor bénévole",
+    "open source « [VILLE]-transports-api » sur GitHub"
+  ],
+  "langues": [
+    {
+      "langue": "Anglais",
+      "niveau": "professionnel (B2)"
+    },
+    {
+      "langue": "Arabe",
+      "niveau": "bilingue"
+    }
+  ],
+  "projets": [],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)",
+    "Oracle Certified Professional, Java SE 11 Developer"
+  ],
+  "centres_interet": []
+}

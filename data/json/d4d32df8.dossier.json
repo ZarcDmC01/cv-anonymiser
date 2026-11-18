@@ -1,0 +1,68 @@
+{
+  "titre": "Data Analyst — Business Intelligence & Data Visualisation",
+  "annees_experience": 7,
+  "synthese": "Ce profil, avec 7 ans d'expérience dans la banque et l'industrie, transforme des données brutes en tableaux de bord utiles aux décideurs (Power BI, SQL, Python). Ce profil a automatisé des reportings réglementaires en réduisant le temps de traitement de 3 jours à 2 heures, et a amélioré la qualité des données en divisant le taux d'erreur par 4.",
+  "competences_cles": [
+    "Data & BI : SQL (avancé), Power BI, DAX, Qlik Sense, Talend, Excel / VBA",
+    "Programmation : Python (pandas, scikit-learn, matplotlib)",
+    "Bases de données : SQL Server, PostgreSQL",
+    "Méthodes : Agile Scrum, gouvernance des données, RGPD"
+  ],
+  "experiences": [
+    {
+      "poste": "Data Analyst",
+      "secteur": "Banque",
+      "debut": "sept. 2022",
+      "fin": "aujourd'hui",
+      "realisations": [
+        "Conception de 25 tableaux de bord Power BI pour la direction des risques (suivi des crédits immobiliers).",
+        "Automatisation des reportings réglementaires mensuels en Python : de 3 jours à 2 heures.",
+        "Mise en place d'un dictionnaire de données et de règles de qualité (taux d'erreur divisé par 4)."
+      ],
+      "environnement": "['Power BI, DAX, SQL Server, Python (pandas), Azure DevOps']"
+    },
+    {
+      "poste": "Analyste BI",
+      "secteur": "Industrie",
+      "debut": "janv. 2020",
+      "fin": "août 2022",
+      "realisations": [
+        "Suivi de la production et des rebuts : création d'un datamart et de 12 rapports Qlik Sense.",
+        "Analyse des temps d'arrêt machines : recommandations ayant réduit les arrêts de 15 %.",
+        "Formation de 40 utilisateurs aux outils de BI en libre-service."
+      ],
+      "environnement": "['Qlik Sense, PostgreSQL, Talend, Excel / VBA']"
+    }
+  ],
+  "formations": [
+    {
+      "annee": "2019",
+      "diplome": "Master MIAGE, parcours Data Science",
+      "type_etablissement": "Université"
+    },
+    {
+      "annee": "2017",
+      "diplome": "Licence de Mathématiques appliquées",
+      "type_etablissement": "Université"
+    },
+    {
+      "annee": "2014",
+      "diplome": "Baccalauréat scientifique",
+      "type_etablissement": "Lycée"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Anglais",
+      "niveau": "courant (TOEIC 905)"
+    },
+    {
+      "langue": "Allemand",
+      "niveau": "intermédiaire (B1)"
+    }
+  ],
+  "certifications": [
+    "{'nom': 'Microsoft Certified : Power BI Data Analyst Associate (PL-300)', 'annee': '2023'}",
+    "{'nom': 'Scrum Fundamentals Certified', 'annee': '2021'}"
+  ]
+}

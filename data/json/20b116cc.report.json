@@ -1,0 +1,55 @@
+{
+  "score_global": 77,
+  "extraction": {
+    "score": 71,
+    "chiffres": 0.8,
+    "annees": 0.875,
+    "mots": 0.5483870967741935,
+    "manquants": {
+      "chiffres": [
+        "22",
+        "5"
+      ],
+      "annees": [
+        "2010"
+      ],
+      "mots": [
+        "careervie",
+        "chinh",
+        "khong",
+        "nghiem",
+        "nghiep",
+        "nguoi",
+        "nhieu",
+        "thang",
+        "thien",
+        "thong",
+        "tien.",
+        "trang",
+        "trien",
+        "viec."
+      ]
+    }
+  },
+  "dossier": {
+    "score": 80,
+    "details": {
+      "structure": 1.0,
+      "chiffres": 1.0,
+      "annees": 1.0,
+      "competences": 1.0,
+      "semantique": 0.62
+    },
+    "cosinus": 0.746,
+    "couverture_lexicale": 0.78,
+    "manquants": {},
+    "ajouts_suspects": {
+      "outils": [
+        "Excel",
+        "SQL",
+        "VBA"
+      ]
+    },
+    "penalite": 12
+  }
+}

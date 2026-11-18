@@ -1,0 +1,79 @@
+{
+  "score_global": 67,
+  "extraction": {
+    "score": 87,
+    "chiffres": 0.8260869565217391,
+    "annees": 1.0,
+    "mots": 0.8385093167701864,
+    "manquants": {
+      "chiffres": [
+        "180",
+        "2300",
+        "55",
+        "600"
+      ],
+      "annees": [],
+      "mots": [
+        "azure",
+        "camille-",
+        "centres",
+        "certifications",
+        "collaborateurs",
+        "competences",
+        "composants",
+        "devops",
+        "environnement",
+        "experiences",
+        "fabricant",
+        "francaise",
+        "horlogers",
+        "interet",
+        "langues",
+        "lefevre",
+        "nationalite",
+        "permis",
+        "photographie.",
+        "professionnelles"
+      ]
+    }
+  },
+  "dossier": {
+    "score": 59,
+    "details": {
+      "structure": 0.83,
+      "chiffres": 0.91,
+      "annees": 0.8,
+      "competences": 0.4,
+      "semantique": 1.0
+    },
+    "cosinus": 0.965,
+    "couverture_lexicale": 0.71,
+    "manquants": {
+      "structure": [
+        "expériences: Stagiaire Data — [ENTREPRISE_3]",
+        "formations: Baccalauréat scientifique"
+      ],
+      "chiffres": [
+        "5"
+      ],
+      "annees": [
+        "2014"
+      ],
+      "competences": [
+        "Data & BI : SQL , Power BI, DAX, Qlik Sense, Talend, Excel / VBA",
+        "Programmation : Python , R",
+        "Savoir-être : pédagogie, rigueur, esprit de synthèse"
+      ]
+    },
+    "ajouts_suspects": {
+      "outils": [
+        "Azure DevOps']",
+        "Data & BI : SQL , Power BI, DAX, Qlik Sense, Talend, Excel / VBA",
+        "Excel / VBA']",
+        "['Power BI",
+        "['Qlik Sense"
+      ]
+    },
+    "penalite": 20
+  }
+}

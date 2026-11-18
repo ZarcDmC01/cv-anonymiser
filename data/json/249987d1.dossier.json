@@ -1,0 +1,89 @@
+{
+  "titre": "Développeur Full-Stack",
+  "annees_experience": 10,
+  "synthese": "Ce profil, avec 10 ans d'expérience dans l'assurance, l'e-commerce et le secteur public, a développé des applications web robustes et performantes. Ce profil a optimisé les performances des APIs en divisant le temps de réponse par 3 et a encadré la formation technique de 3 développeurs juniors.",
+  "competences_cles": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "Bash",
+    "Spring Boot",
+    "Angular",
+    "React (notions)",
+    "Docker",
+    "Kubernetes",
+    "GitLab CI",
+    "Jenkins",
+    "Terraform (notions)",
+    "PostgreSQL",
+    "MySQL",
+    "Oracle",
+    "Redis",
+    "TDD",
+    "JUnit",
+    "Cypress",
+    "SonarQube"
+  ],
+  "experiences": [
+    {
+      "poste": "Développeur Full-Stack senior",
+      "secteur": "Assurance",
+      "debut": "mars 2021",
+      "fin": "aujourd'hui",
+      "realisations": [
+        "Refonte de l'espace client (Angular 16, Spring Boot 3) utilisé par 450 000 sociétaires.",
+        "Pipelines GitLab CI/CD et déploiement sur Kubernetes (OpenShift) : livraison hebdomadaire au lieu de trimestrielle.",
+        "Encadrement technique de 3 développeurs juniors, revues de code."
+      ],
+      "environnement": "Angular, Spring Boot, Docker, Kubernetes, GitLab CI"
+    },
+    {
+      "poste": "Développeur Java",
+      "secteur": "E-commerce",
+      "debut": "Septembre 2018",
+      "fin": "février 2021",
+      "realisations": [
+        "Développement de micro-services de gestion des commandes et des paiements (Stripe).",
+        "Optimisation des performances : temps de réponse de l'API divisé par 3."
+      ],
+      "environnement": "Java, Spring Boot, Docker, Kubernetes"
+    },
+    {
+      "poste": "Développeur web",
+      "secteur": "Secteur public",
+      "debut": "2016",
+      "fin": "2018",
+      "realisations": [
+        "Maintenance d'applications métiers (aides sociales), migration PHP vers Java."
+      ],
+      "environnement": "Java, SQL, PostgreSQL"
+    }
+  ],
+  "formations": [
+    {
+      "annee": "2016",
+      "diplome": "Diplôme d'ingénieur en informatique",
+      "type_etablissement": "École d'ingénieurs"
+    },
+    {
+      "annee": "2013",
+      "diplome": "DUT Informatique",
+      "type_etablissement": "IUT"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Anglais professionnel",
+      "niveau": "B2"
+    },
+    {
+      "langue": "Arabe",
+      "niveau": "bilingue"
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)",
+    "Oracle Certified Professional, Java SE 11 Developer"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "titre": "Logistics Manager — Supply Chain Management",
+  "annees_experience": 3,
+  "synthese": "Ce profil, avec 3 ans d'expérience dans le secteur des transports et de la logistique, a développé des compétences en gestion des stocks, organisation des marchandises et optimisation des processus logistiques. Ce profil a contribué à améliorer l'efficacité opérationnelle en assurant le suivi des livraisons, la gestion des stocks et la coordination des équipes de travail.",
+  "competences_cles": [
+    "Quản lý tồn kho",
+    "Saisie et organisation des marchandises",
+    "Optimisation des processus logistiques",
+    "Suivi des livraisons",
+    "Gestion des stocks",
+    "Coordination des équipes"
+  ],
+  "experiences": [
+    {
+      "poste": "Logistics Manager",
+      "secteur": "Secteur public",
+      "debut": "03.2024",
+      "fin": "aujourd'hui",
+      "realisations": [
+        "Gestion des opérations logistiques : suivi des livraisons, organisation des marchandises et coordination des équipes de travail.",
+        "Amélioration de l'efficacité des processus logistiques en optimisant la gestion des stocks et le suivi des livraisons.",
+        "Assurance du bon fonctionnement des systèmes de gestion des stocks et de la logistique."
+      ],
+      "environnement": "Systèmes de gestion des stocks, ERP, logiciels de gestion des livraisons"
+    },
+    {
+      "poste": "Logistics Coordinator",
+      "secteur": "Industrie",
+      "debut": "06.2023",
+      "fin": "07.2023",
+      "realisations": [
+        "Support aux opérations logistiques : saisie et organisation des marchandises, suivi des livraisons.",
+        "Assistance à la gestion des stocks et du suivi des livraisons en utilisant les systèmes ERP et de gestion des livraisons."
+      ],
+      "environnement": "ERP, Systèmes de gestion des livraisons"
+    }
+  ],
+  "formations": [
+    {
+      "annee": "2020 - 2024",
+      "diplome": "Cursus universitaire",
+      "type_etablissement": "Université"
+    }
+  ],
+  "langues": [],
+  "certifications": []
+}

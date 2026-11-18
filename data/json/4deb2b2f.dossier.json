@@ -1,0 +1,101 @@
+{
+  "titre": "AI/Computer Vision Engineer",
+  "annees_experience": 16,
+  "synthese": "Ce profil, avec 16 ans d'expérience dans l'industrie et la technologie, développe des solutions de vision automatique et analyse de données temps réel. Il a automatisé le processus de détection de défauts sur les composants mécaniques à l'aide de PyTorch et TensorFlow, et a amélioré la précision du contrôle industriel en utilisant C++.",
+  "competences_cles": [
+    "Python",
+    "C#",
+    "OpenCV",
+    "Tkinter",
+    "PyQT",
+    "WPF",
+    "C++",
+    "Tensorflow",
+    "Pytorch"
+  ],
+  "experiences": [
+    {
+      "poste": "Vision Software Senior",
+      "secteur": "Industrie",
+      "debut": "2023-08",
+      "fin": "aujourd'hui",
+      "realisations": [
+        "Développement de logiciels basé sur la plateforme internes pour des projets de vision.",
+        "Diagnostique du logiciel à l'automate d'inspection (AOI) au luxshare-ict, goerteck"
+      ],
+      "environnement": ""
+    },
+    {
+      "poste": "Software Engineer Senior Leader",
+      "secteur": "Industrie",
+      "debut": "2020-03",
+      "fin": "2023-05",
+      "realisations": [
+        "Développement de logiciels basé sur la vision pour détecter les régions défectueuses et mesurer l'écartet la distance des composants mécaniques à l'aide d'une architecture de deep learning telle que la segmentation médicale, Vision Transformer, segmentation, detection et classification.",
+        "Développement de logiciels basé sur le capteur pour mesurer la profondeur des céramiques.",
+        "Développement d'une solution de guidage visuel flexible pour localiser et aligner précisément les motifs.",
+        "Développement de l'outil de détection visuelle pour vérifier les composants électroniques et mécaniques, reconnaissance optique de caractères et barres de code.",
+        "Analyse des données en temps réel provenant du servo de pilotage (force, courant, vitesse) pour détecter les anomalies.",
+        "Conception de l'architecture matérielle des lunettes, lumière et caméras et diriger la conception d'automates intelligents.",
+        "Programmation de communication entre PC, dispositif embarqué, PLC, robotique, compréhension des composants électroniques industriels, automatisation industrielle.",
+        "Diagnostique du logiciel à l'automate d'inspection (AOI) sur les machines SMT."
+      ],
+      "environnement": ""
+    },
+    {
+      "poste": "AI Engineer",
+      "secteur": "Technologie",
+      "debut": "2019-07",
+      "fin": "2020-03",
+      "realisations": [
+        "Recherche de projets Smart City avec des projets de reconnaissance utilisant la caméra PTZ, harassement et reconnaissance de violence."
+      ],
+      "environnement": ""
+    },
+    {
+      "poste": "Automation Engineer",
+      "secteur": "Industrie",
+      "debut": "2010-10",
+      "fin": "2017-10",
+      "realisations": [
+        "Conception de l'architecture matérielle et programmation des logiciels sur microcontrôleur AVR, ARM, et développement d'un logiciel d'automatisation utilisant PLC, HMI et servo."
+      ],
+      "environnement": ""
+    }
+  ],
+  "formations": [
+    {
+      "annee": "2017-09 - 2019-09",
+      "diplome": "Technologie de systèmes mécanique et sensorielle",
+      "type_etablissement": "École d'ingénieurs"
+    },
+    {
+      "annee": "2012-09 - 2015-09",
+      "diplome": "MBA",
+      "type_etablissement": "Université"
+    },
+    {
+      "annee": "2005-09 - 2010-09",
+      "diplome": "Automatisation et contrôle",
+      "type_etablissement": "École d'ingénieurs"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Anglais",
+      "niveau": "Intermédiaire"
+    },
+    {
+      "langue": "Chinois",
+      "niveau": "Basique"
+    },
+    {
+      "langue": "Vietnamien",
+      "niveau": "Natif"
+    }
+  ],
+  "certifications": [
+    "{'nom': 'Machine Learning by Stanford University Andrew Ng', 'annee': '2018'}",
+    "{'nom': 'Deep Learning Specialization by Andrew Ng', 'annee': '2019'}"
+  ]
+}

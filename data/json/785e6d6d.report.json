@@ -1,0 +1,54 @@
+{
+  "score_global": 91,
+  "extraction": {
+    "score": 82,
+    "chiffres": 0.6666666666666667,
+    "annees": 1.0,
+    "mots": 0.88,
+    "manquants": {
+      "chiffres": [
+        "4"
+      ],
+      "annees": [],
+      "mots": [
+        "address",
+        "april",
+        "background",
+        "birthday",
+        "certifications",
+        "chung",
+        "educational",
+        "email",
+        "experience",
+        "internship",
+        "languages",
+        "mobile",
+        "months.",
+        "professional",
+        "skills",
+        "strengths",
+        "taiwan",
+        "technology."
+      ]
+    }
+  },
+  "dossier": {
+    "score": 95,
+    "details": {
+      "structure": 1.0,
+      "chiffres": null,
+      "annees": 1.0,
+      "competences": 0.91,
+      "semantique": 0.88
+    },
+    "cosinus": 0.851,
+    "couverture_lexicale": 0.35,
+    "manquants": {
+      "competences": [
+        "protocol."
+      ]
+    },
+    "ajouts_suspects": {},
+    "penalite": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "score_global": 78,
+  "extraction": {
+    "score": 87,
+    "chiffres": 0.8260869565217391,
+    "annees": 1.0,
+    "mots": 0.85,
+    "manquants": {
+      "chiffres": [
+        "180",
+        "2300",
+        "55",
+        "600"
+      ],
+      "annees": [],
+      "mots": [
+        "azure",
+        "centres",
+        "certifications",
+        "collaborateurs",
+        "competences",
+        "composants",
+        "devops",
+        "environnement",
+        "experiences",
+        "fabricant",
+        "francaise",
+        "horlogers",
+        "interet",
+        "langues",
+        "lefevre",
+        "nationalite",
+        "permis",
+        "photographie.",
+        "professionnelles",
+        "profil"
+      ]
+    }
+  },
+  "dossier": {
+    "score": 74,
+    "details": {
+      "structure": 1.0,
+      "chiffres": 0.91,
+      "annees": 1.0,
+      "competences": 0.0,
+      "semantique": 1.0
+    },
+    "cosinus": 0.962,
+    "couverture_lexicale": 0.76,
+    "manquants": {
+      "chiffres": [
+        "5"
+      ],
+      "competences": [
+        "Bases de données : SQL Server, PostgreSQL",
+        "Data & BI : SQL , Power BI, DAX, Qlik Sense, Talend, Excel / VBA",
+        "Méthodes : Agile Scrum, gouvernance des données, RGPD",
+        "Programmation : Python , R",
+        "Savoir-être : pédagogie, rigueur, esprit de synthèse"
+      ]
+    },
+    "ajouts_suspects": {
+      "outils": [
+        "Azure DevOps"
+      ]
+    },
+    "penalite": 4
+  }
+}

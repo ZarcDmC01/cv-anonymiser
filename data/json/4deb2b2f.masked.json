@@ -1,0 +1,121 @@
+{
+  "identite": {
+    "prenom": "",
+    "nom": "",
+    "titre": "AI/Computer Vision Engineer",
+    "email": "",
+    "telephone": "",
+    "adresse": "",
+    "ville": "",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": ""
+  },
+  "profil": "KEY STRENGTHS\nMachine vision\nTeam Leader\nAI engineer\nAutomation software",
+  "experiences": [
+    {
+      "poste": "Vision Software Senior",
+      "entreprise": "[ENTREPRISE_1]",
+      "lieu": "[VILLE]",
+      "debut": "Aug 2023",
+      "fin": "Now",
+      "description": [
+        "Develop the low-code software from internal platforms for vision projects.",
+        "Debug the software at AOI machine at Luxshare-ICT, Goerteck factory."
+      ]
+    },
+    {
+      "poste": "Software Engineer Senior Leader",
+      "entreprise": "[ENTREPRISE_2]",
+      "lieu": "[VILLE]",
+      "debut": "Mar 2020",
+      "fin": "May 2023",
+      "description": [
+        "Develop the vision-based software to automatically detect the faulty region and measure eccentricity and distance of mechanical components using deep learning architecture such as Medical Image Segmentation, Vision Transformer, segmentation, detection, and classification.",
+        "Develop sensor-based software to automatically measure the depth of ceramics.",
+        "Develop a flexible vision-guided alignment solution to quickly and precisely locate and align patterns.",
+        "Develop the visual inspection software for checking electronic and mechanical components, optical character recognition, and barcodes.",
+        "Analyze time series data from driver servo like force, current, and velocity to detect abnormality.",
+        "Design the hardware architecture of Lenses, Light, and Cameras and lead the concept of smart automation machines. Program communication between PC, embedded device, PLC, Robot, Understand electronic components, industrial automation.",
+        "Debug program for AOI function in SMT Machines."
+      ]
+    },
+    {
+      "poste": "AI Engineer",
+      "entreprise": "[ENTREPRISE_3]",
+      "lieu": "[VILLE]",
+      "debut": "July 2019",
+      "fin": "Mar 2020",
+      "description": [
+        "Research Smart City with recognition projects using Camera PTZ, Harassment, and Violence Recognition."
+      ]
+    },
+    {
+      "poste": "Automation Engineer",
+      "entreprise": "[ENTREPRISE_4]",
+      "lieu": "[VILLE]",
+      "debut": "Oct 2010",
+      "fin": "Oct 2017",
+      "description": [
+        "Design hardware and Program software on microcontroller AVR, ARM, and develop automation software using PLC, HMI, and Servo."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Mechatronic and Sensor System Technology",
+      "etablissement": "[ETABLISSEMENT_1]",
+      "lieu": "[VILLE]",
+      "annee": "Sep 2017 - Sep 2019",
+      "details": ""
+    },
+    {
+      "diplome": "MBA [ETABLISSEMENT_2]",
+      "etablissement": "[ETABLISSEMENT_2]",
+      "lieu": "[VILLE]",
+      "annee": "Sep 2012 - Sep 2015",
+      "details": ""
+    },
+    {
+      "diplome": "Automation and Control",
+      "etablissement": "[ETABLISSEMENT_3]",
+      "lieu": "[VILLE]",
+      "annee": "Sep 2005 - Sep 2010",
+      "details": ""
+    }
+  ],
+  "competences": [
+    "Python",
+    "C#",
+    "OpenCV",
+    "Tkinter",
+    "PyQT",
+    "WPF",
+    "C++",
+    "GUI",
+    "Tensorflow",
+    "Pytorch",
+    "protocol"
+  ],
+  "langues": [
+    {
+      "langue": "English",
+      "niveau": "Upper – Intermediate"
+    },
+    {
+      "langue": "Chinese",
+      "niveau": "Basic"
+    },
+    {
+      "langue": "Vietnamese",
+      "niveau": "Native"
+    }
+  ],
+  "projets": [],
+  "certifications": [
+    "{'nom': 'Machine Learning by Stanford University Andrew Ng', 'annee': '2018'}",
+    "{'nom': 'Deep Learning Specialization by Andrew Ng', 'annee': '2019'}"
+  ],
+  "centres_interet": []
+}

@@ -1,0 +1,102 @@
+{
+  "identite": {
+    "prenom": "",
+    "nom": "",
+    "titre": "Data Analyst — Business Intelligence & Data Visualisation",
+    "email": "",
+    "telephone": "",
+    "adresse": "",
+    "ville": "",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": ""
+  },
+  "profil": "Data Analyst avec 5 ans d'expérience dans la banque et l'industrie. Je transforme des données brutes en tableaux de bord utiles aux décideurs (Power BI, SQL, Python). Habituée aux environnements exigeants (conformité, RGPD), j'aime vulgariser les chiffres auprès des équipes métier.",
+  "experiences": [
+    {
+      "poste": "Data Analyst — [ENTREPRISE_1]",
+      "entreprise": "[ENTREPRISE_1]",
+      "lieu": "[VILLE]",
+      "debut": "sept. 2022",
+      "fin": "aujourd'hui",
+      "description": [
+        "Conception de 25 tableaux de bord Power BI pour la direction des risques (suivi des crédits immobiliers).",
+        "Automatisation des reportings réglementaires mensuels en Python : de 3 jours à 2 heures.",
+        "Mise en place d'un dictionnaire de données et de règles de qualité (taux d'erreur divisé par 4)."
+      ]
+    },
+    {
+      "poste": "Analyste BI — [ENTREPRISE_2]",
+      "entreprise": "[ENTREPRISE_2]",
+      "lieu": "[VILLE]",
+      "debut": "janv. 2020",
+      "fin": "août 2022",
+      "description": [
+        "Suivi de la production et des rebuts : création d'un datamart et de 12 rapports Qlik Sense.",
+        "Analyse des temps d'arrêt machines : recommandations ayant réduit les arrêts de 15 %.",
+        "Formation de 40 utilisateurs aux outils de BI en libre-service."
+      ]
+    },
+    {
+      "poste": "Stagiaire Data — [ENTREPRISE_3]",
+      "entreprise": "[ENTREPRISE_3]",
+      "lieu": "[VILLE]",
+      "debut": "févr. 2019",
+      "fin": "août 2019",
+      "description": [
+        "Nettoyage et analyse des données adhérents ; étude de l'attrition (régression logistique)."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Master MIAGE, parcours Data Science",
+      "etablissement": "[ETABLISSEMENT_1]",
+      "lieu": "[VILLE]",
+      "annee": "2019",
+      "details": ""
+    },
+    {
+      "diplome": "Licence de Mathématiques appliquées",
+      "etablissement": "[ETABLISSEMENT_1]",
+      "lieu": "[VILLE]",
+      "annee": "2017",
+      "details": ""
+    },
+    {
+      "diplome": "Baccalauréat scientifique",
+      "etablissement": "[ETABLISSEMENT_2]",
+      "lieu": "[VILLE]",
+      "annee": "2014",
+      "details": ""
+    }
+  ],
+  "competences": [
+    "Data & BI : SQL (avancé), Power BI, DAX, Qlik Sense, Talend, Excel / VBA",
+    "Programmation : Python (pandas, scikit-learn, matplotlib), R",
+    "Bases de données : SQL Server, PostgreSQL",
+    "Méthodes : Agile Scrum, gouvernance des données, RGPD",
+    "Savoir-être : pédagogie, rigueur, esprit de synthèse"
+  ],
+  "langues": [
+    {
+      "langue": "Anglais",
+      "niveau": "courant (TOEIC 905)"
+    },
+    {
+      "langue": "Allemand",
+      "niveau": "intermédiaire (B1)"
+    }
+  ],
+  "projets": [],
+  "certifications": [
+    "{'nom': 'Microsoft Certified : Power BI Data Analyst Associate (PL-300)', 'annee': '2023'}",
+    "{'nom': 'Scrum Fundamentals Certified', 'annee': '2021'}"
+  ],
+  "centres_interet": [
+    "Trail (vice-championne du Trail des Crêtes du Doubs 2023)",
+    "bénévole à l'association « Data pour Tous [VILLE] »",
+    "photographie"
+  ]
+}

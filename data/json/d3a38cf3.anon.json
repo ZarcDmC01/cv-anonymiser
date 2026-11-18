@@ -1,0 +1,129 @@
+{
+  "identite": {
+    "prenom": "[PRENOM]",
+    "nom": "[NOM]",
+    "titre": "Développeur en Intelligence Artificielle  · Data Scientist",
+    "email": "[EMAIL]",
+    "telephone": "[TELEPHONE]",
+    "adresse": "",
+    "ville": "[VILLE]",
+    "linkedin": "[LIEN]",
+    "github": "[LIEN]",
+    "site_web": "[LIEN]",
+    "date_naissance": ""
+  },
+  "profil": "Développeur IA autodidacte et curieux, passionné par les systèmes agentiques et les workflows code/nocode. À l'aise sur toute la chaîne IA : collecte de données, entraînement de modèles, intégration API et déploiement. J'apprends de nouvelles techniques chaque jour et j'explore constamment de nouvelles architectures.",
+  "experiences": [
+    {
+      "poste": "Développeur en Intelligence Artificielle",
+      "entreprise": "[ENTREPRISE]",
+      "lieu": "",
+      "debut": "2025–2026",
+      "fin": "",
+      "description": [
+        "Pipeline complet d'analyse de logs de dispositifs médicaux : NLP avec embeddings (SentenceTransformer), 11 algorithmes de clustering, tracking d'expériences MLflow.",
+        "Application Flask multi-composants avec visualisations interactives. Déploiement Docker + PostgreSQL."
+      ]
+    },
+    {
+      "poste": "Cadre Encadrant SNU",
+      "entreprise": "[ENTREPRISE]",
+      "lieu": "[VILLE]",
+      "debut": "",
+      "fin": "",
+      "description": [
+        "Encadrement de jeunes volontaires au sein d'un centre de cohésion. Gestion de section, organisation d'activités, coordination pédagogique."
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "GRETA — Développeur en Intelligence Artificielle",
+      "etablissement": "[ETABLISSEMENT]",
+      "lieu": "",
+      "annee": "2025–2027",
+      "details": ""
+    },
+    {
+      "diplome": "Licence de Géologie (jusqu'en L2)",
+      "etablissement": "[ETABLISSEMENT]",
+      "lieu": "",
+      "annee": "2020–2025",
+      "details": ""
+    },
+    {
+      "diplome": "Baccalauréat Scientifique — filière SVT",
+      "etablissement": "[ETABLISSEMENT]",
+      "lieu": "",
+      "annee": "2020",
+      "details": ""
+    },
+    {
+      "diplome": "BIA — Brevet d'Initiation Aéronautique",
+      "etablissement": "[ETABLISSEMENT]",
+      "lieu": "",
+      "annee": "2016",
+      "details": ""
+    }
+  ],
+  "competences": [
+    "ML : scikit-learn, XGBoost, Random Forest, SVR, SMOTE, pandas, numpy",
+    "Deep L. : PyTorch, TensorFlow, Computer Vision",
+    "LLM/Agents : RAG, Claude API, Groq, Ollama",
+    "Backend : FastAPI, Django, Jinja2, JWT Auth",
+    "Data : PostgreSQL, MongoDB, SQLite, Jupyter",
+    "Frontend : Next.js, React, TypeScript, Tailwind CSS, Recharts",
+    "DevOps : Docker, Git, CI/CD, MLOps, Render, Vercel"
+  ],
+  "langues": [
+    {
+      "langue": "Français",
+      "niveau": "Natif"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Technique (70%)"
+    }
+  ],
+  "projets": [
+    {
+      "nom": "LogAI — Analyse de logs médicaux",
+      "description": "Pipeline NLP + 11 algorithmes de clustering sur données de dispositifs médicaux. Tracking MLflow, Flask multi-composants, Docker + PostgreSQL."
+    },
+    {
+      "nom": "IA Speaker — Agent LLM vocal",
+      "description": "Agent IA avec transcription vocale (Whisper), synthèse et clonage de voix. Chatbot LLM autonome."
+    },
+    {
+      "nom": "Stable Diffusion App",
+      "description": "Application web de génération d'images IA, multi-méthodes, LoRA fine-tuning, haute qualité."
+    },
+    {
+      "nom": "Datathon — Myopie / Glaucome",
+      "description": "Algorithme de prédiction d'évolution de la myopie par analyse d'imagerie rétinienne. Anticiper l'évolution de pathologies oculaires de façon précoce et automatisée."
+    },
+    {
+      "nom": "Détection de fraude bancaire",
+      "description": "App web + modèle de classification entraîné sur dataset réel, score de confiance. Identifier automatiquement les comportements frauduleux pour protéger les clients en temps réel."
+    },
+    {
+      "nom": "Prédiction prix voitures d'occasion",
+      "description": "App full-stack + API REST : login, dashboard statistique (Power BI / TABLEAU), choix du modèle ML. Aider acheteurs et vendeurs à trouver le juste prix d'un véhicule, en toute transparence."
+    },
+    {
+      "nom": "SAO HUD — Interface desktop IA",
+      "description": "HUD desktop avec widgets système (CPU/GPU/RAM). Agents IA (Claude, Groq) génèrent automatiquement de nouveaux widgets chaque jour."
+    }
+  ],
+  "certifications": [
+    "Certification Microsoft Azure AI-900"
+  ],
+  "centres_interet": [
+    "IA Speaker — Agent LLM vocal",
+    "Stable Diffusion App",
+    "Datathon — Myopie / Glaucome",
+    "Détection de fraude bancaire",
+    "Prédiction prix voitures d'occasion",
+    "SAO HUD — Interface desktop IA"
+  ]
+}

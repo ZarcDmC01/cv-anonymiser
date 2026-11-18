@@ -1,0 +1,102 @@
+{
+  "titre": "AI/Computer Vision Engineer",
+  "annees_experience": 16,
+  "synthese": "Ce profil, avec 16 ans d'expérience dans l'industrie et le secteur public, développe des logiciels de vision par ordinateur pour la détection automatique des anomalies et la mesure précise. Ce profil a également programmé des architectures matérielles et logicielles pour les systèmes d'automatisation industrielle.",
+  "competences_cles": [
+    "Python",
+    "C#",
+    "OpenCV",
+    "Tkinter",
+    "PyQT",
+    "WPF",
+    "C++",
+    "GUI",
+    "Tensorflow",
+    "Pytorch"
+  ],
+  "experiences": [
+    {
+      "poste": "Vision Software Senior",
+      "secteur": "Industrie",
+      "debut": "Aug 2023",
+      "fin": "aujourd'hui",
+      "realisations": [
+        "Développement du logiciel basé sur le code source pour les projets de vision.",
+        "Débogage du logiciel à la machine AOI chez Luxshare-ICT et Goerteck."
+      ],
+      "environnement": "Python, C#, OpenCV"
+    },
+    {
+      "poste": "Software Engineer Senior Leader",
+      "secteur": "Industrie",
+      "debut": "Mar 2020",
+      "fin": "May 2023",
+      "realisations": [
+        "Développement du logiciel de vision basé sur l'apprentissage profond pour détecter les régions déficientes et mesurer la courbure et la distance des composants mécaniques.",
+        "Développement du logiciel de mesure de profondeur pour automatiser la mesure de la profondeur des céramiques.",
+        "Développement d'une solution de vision guidée pour aligner les motifs rapidement et précisément.",
+        "Développement du logiciel de contrôle visuel pour vérifier les composants électroniques et mécaniques, OCR et codes-barres.",
+        "Analyse des données en série temporelles des moteurs servomoteurs pour détecter les anomalies.",
+        "Conception de l'architecture matérielle des lentilles, des lumières et des caméras et direction du concept de machines d'automatisation intelligentes. Programmation de la communication entre le PC, le dispositif intégré et le PLC, Robot.",
+        "Débogage du logiciel pour la fonction AOI dans les machines SMT."
+      ],
+      "environnement": "Python, C#, OpenCV"
+    },
+    {
+      "poste": "AI Engineer",
+      "secteur": "Mutuelle / santé",
+      "debut": "July 2019",
+      "fin": "Mar 2020",
+      "realisations": [
+        "Recherche sur la ville intelligente avec des projets de reconnaissance utilisant les caméras PTZ, la détection du harcèlement et de la violence."
+      ],
+      "environnement": "Python"
+    },
+    {
+      "poste": "Automation Engineer",
+      "secteur": "Secteur public",
+      "debut": "Oct 2010",
+      "fin": "Oct 2017",
+      "realisations": [
+        "Conception de l'architecture matérielle et programmation du logiciel sur les microcontrôleurs AVR, ARM et développement de logiciels d'automatisation utilisant PLC, HMI et servomoteur."
+      ],
+      "environnement": "C++, Python"
+    }
+  ],
+  "formations": [
+    {
+      "annee": "Sep 2017 – Sep 2019",
+      "diplome": "Mechatronic and Sensor System Technology",
+      "type_etablissement": "Université"
+    },
+    {
+      "annee": "Sep 2012 – Sep 2015",
+      "diplome": "MBA Vietnam National University HCMC",
+      "type_etablissement": "Université"
+    },
+    {
+      "annee": "Sep 2005 – Sep 2010",
+      "diplome": "in Automation and Control",
+      "type_etablissement": "Université"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "English",
+      "niveau": "Upper – Intermediate"
+    },
+    {
+      "langue": "Chinese",
+      "niveau": "Basic"
+    },
+    {
+      "langue": "Vietnamese",
+      "niveau": "Native"
+    }
+  ],
+  "certifications": [
+    "Machine Learning by Stanford University Andrew Ng 2018.",
+    "Deep Learning Specialization by Andrew Ng 2019.",
+    "Machine learning/ MLOps online course 2022"
+  ]
+}

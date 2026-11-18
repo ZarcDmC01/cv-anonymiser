@@ -1,0 +1,100 @@
+{
+  "identite": {
+    "prenom": "Lý",
+    "nom": "Quốc Tiến",
+    "titre": "Nhân Viên Kế Toán",
+    "email": "",
+    "telephone": "",
+    "adresse": "Phường Lái Thiêu, Thành phố Thuận An, Bình Dương, Việt Nam",
+    "ville": "Thuận An",
+    "linkedin": "",
+    "github": "",
+    "site_web": "",
+    "date_naissance": "11/12/1989"
+  },
+  "profil": "",
+  "experiences": [
+    {
+      "poste": "Nhân viên Kế Toán",
+      "entreprise": "Công ty TNHH Tuấn Linh",
+      "lieu": "Bình Dương",
+      "debut": "02/2024",
+      "fin": "08/2024",
+      "description": [
+        "Xuất hóa đơn VAT",
+        "Theo dõi công nợ phải thu và phải trả",
+        "Theo dõi nhập xuất tồn nguyên vật liệu",
+        "Theo dõi đơn hàng và mua nguyên vật liệu",
+        "Chấm công và tính lương cho nhân viên"
+      ]
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "entreprise": "Công ty TNHH Asuzac",
+      "lieu": "Bình Dương",
+      "debut": "11/2019",
+      "fin": "6/2020",
+      "description": [
+        "Xuất hóa đơn VAT",
+        "Làm báo cáo và nộp thuế: VAT, TNCN, TNDN, thuế nhà thầu",
+        "Lập tờ khai quyết toán thuế TNCN và thuế TNDN",
+        "Đăng kí mã số thuế TNCN và giảm trừ gia cảnh cho nhân viên",
+        "Thực hiện các giao dịch ngân hàng",
+        "Theo dõi công nợ phải thu",
+        "Hạch toán thu chi tiền mặt"
+      ]
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "entreprise": "Công ty TNHH Hoàng Ngọc",
+      "lieu": "Bình Dương",
+      "debut": "10/2018",
+      "fin": "10/2019",
+      "description": [
+        "Xuất hóa đơn và làm báo cáo thuế VAT",
+        "Mua nguyên liệu sản xuất",
+        "Thực hiện các giao dịch ngân hàng",
+        "Tính giá thành sản phẩm",
+        "Hạch toán thu chi hằng ngày",
+        "Chấm công và tính lương cho nhân viên",
+        "Theo dõi công nợ phải thu và phải trả"
+      ]
+    },
+    {
+      "poste": "Nhân Viên Kế Toán",
+      "entreprise": "Công ty CP Hòa Long",
+      "lieu": "Bình Dương",
+      "debut": "9/2015",
+      "fin": "8/2018",
+      "description": [
+        "Xuất hóa đơn VAT",
+        "Thực hiện các giao dịch ngân hàng",
+        "Theo dõi công nợ phải thu và phải trả",
+        "Chấm công và tính lương cho nhân viên"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Đại học",
+      "etablissement": "Trường Đại Học Kinh Tế Kỹ Thuật Bình Dương",
+      "lieu": "",
+      "annee": "2014",
+      "details": "Chuyên ngành Kế Toán"
+    }
+  ],
+  "competences": [
+    "Thành thạo tin học văn phòng"
+  ],
+  "langues": [
+    {
+      "langue": "Tiếng Anh",
+      "niveau": "Sơ cấp"
+    }
+  ],
+  "projets": [],
+  "certifications": [
+    "Chứng chỉ B Tin học"
+  ],
+  "centres_interet": []
+}

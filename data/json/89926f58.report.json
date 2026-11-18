@@ -1,0 +1,63 @@
+{
+  "score_global": 90,
+  "extraction": {
+    "score": 73,
+    "chiffres": 0.6875,
+    "annees": 0.6666666666666667,
+    "mots": 0.814516129032258,
+    "manquants": {
+      "chiffres": [
+        "000",
+        "150",
+        "17",
+        "32",
+        "450"
+      ],
+      "annees": [
+        "2020",
+        "2024"
+      ],
+      "mots": [
+        "academie",
+        "bases",
+        "benevole",
+        "certifications",
+        "competences",
+        "contact",
+        "devops",
+        "divers",
+        "enfants",
+        "formation",
+        "frameworks",
+        "infos",
+        "kafka",
+        "langages",
+        "langues",
+        "mainteneur",
+        "marie",
+        "mentor",
+        "oriente",
+        "resume"
+      ]
+    }
+  },
+  "dossier": {
+    "score": 97,
+    "details": {
+      "structure": 1.0,
+      "chiffres": 0.83,
+      "annees": 1.0,
+      "competences": 1.0,
+      "semantique": 1.0
+    },
+    "cosinus": 0.957,
+    "couverture_lexicale": 0.89,
+    "manquants": {
+      "chiffres": [
+        "8"
+      ]
+    },
+    "ajouts_suspects": {},
+    "penalite": 0
+  }
+}
