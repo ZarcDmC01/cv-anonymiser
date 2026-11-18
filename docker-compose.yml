@@ -1,0 +1,23 @@
+# Tout dans un seul conteneur, services séparés par port :
+#   ESN (base + création des CV + site ESM)  -> http://localhost:8000
+#   Site Entreprises (consultation, filtres) -> http://localhost:8001
+# Ollama tourne sur l'hôte. Les données (base, PDF) sont dans ./data.
+#   docker compose up -d --build
+services:
+  cv:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:8001:8001"
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      ESN_URL: http://127.0.0.1:8000
+      PUBLIC_BASE_URL: http://localhost:8000
+      INTERNAL_KEY: ${INTERNAL_KEY:-dev-internal-key}
+      SESSION_SECRET: ${SESSION_SECRET:-change-me}
+      ESM_INVITE_CODE: ${ESM_INVITE_CODE:-esm-demo}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

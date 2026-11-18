@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV Anonymiser</title>
+<style>
+  :root { --navy:#0d1b2a; --navy2:#13273d; --teal:#00c9a7; --teal2:#00a38a; --txt:#e2e8f0; --mut:#94a3b8; --err:#ff6b6b; --warn:#fbbf24; }
+  * { box-sizing:border-box; margin:0; }
+  body { min-height:100vh; font-family:system-ui,"Segoe UI",sans-serif; color:var(--txt);
+    background: radial-gradient(900px 500px at 15% -10%, #0e4a4a55, transparent), radial-gradient(800px 500px at 100% 100%, #1d3a6a55, transparent), var(--navy);
+    display:flex; justify-content:center; padding:48px 16px; }
+  main { width:100%; max-width:760px; }
+  header { text-align:center; margin-bottom:28px; }
+  .logo { font-size:44px; filter:drop-shadow(0 0 18px #00c9a788); }
+  h1 { font-size:30px; margin:6px 0 4px; letter-spacing:-.5px; }
+  h1 span { color:var(--teal); }
+  header p { color:var(--mut); font-size:15px; }
+
+  .card { background:linear-gradient(160deg,#16314a99,#0d1b2acc); border:1px solid #ffffff14; border-radius:18px; padding:22px; backdrop-filter:blur(6px); box-shadow:0 20px 50px #0006; }
+  #drop { border:2px dashed #00c9a766; border-radius:14px; padding:44px 20px; text-align:center; cursor:pointer; transition:.2s; }
+  #drop:hover, #drop.over { border-color:var(--teal); background:#00c9a712; transform:scale(1.01); }
+  #drop .big { font-size:44px; display:block; margin-bottom:8px; animation:float 3s ease-in-out infinite; }
+  #drop b { color:var(--teal); }
+  #drop small { color:var(--mut); display:block; margin-top:6px; }
+  @keyframes float { 50% { transform:translateY(-7px); } }
+  input[type=file] { display:none; }
+
+  #steps { display:none; list-style:none; padding:0; margin-top:6px; }
+  .step { display:flex; align-items:center; gap:12px; padding:10px 6px; color:var(--mut); transition:.3s; }
+  .dot { width:26px; height:26px; border-radius:50%; display:grid; place-items:center; font-size:13px; background:#ffffff12; flex:none; }
+  .step.active { color:var(--txt); }
+  .step.active .dot { background:transparent; border:3px solid #00c9a733; border-top-color:var(--teal); animation:spin .8s linear infinite; font-size:0; }
+  .step.done { color:var(--txt); }
+  .step.done .dot { background:var(--teal); color:var(--navy); font-weight:700; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  #fname { font-size:14px; color:var(--mut); margin-bottom:8px; }
+
+  #result { display:none; }
+  .ok { display:flex; align-items:center; gap:10px; font-size:20px; font-weight:600; margin-bottom:14px; }
+  .ok i { font-style:normal; background:var(--teal); color:var(--navy); width:32px; height:32px; border-radius:50%; display:grid; place-items:center; }
+  .btns { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px; }
+  .btn { padding:10px 16px; border-radius:10px; font-weight:600; font-size:14px; text-decoration:none; border:1px solid #00c9a755; color:var(--txt); background:transparent; cursor:pointer; transition:.15s; }
+  .btn:hover { background:#00c9a71f; }
+  .btn.primary { background:linear-gradient(135deg,var(--teal),var(--teal2)); color:var(--navy); border:0; }
+  .btn.primary:hover { filter:brightness(1.1); }
+  iframe { width:100%; height:520px; border:0; border-radius:10px; background:#fff; }
+  .note { padding:10px 14px; border-radius:10px; font-size:14px; margin-bottom:14px; }
+  .note.warn { background:#fbbf2418; border:1px solid #fbbf2455; color:var(--warn); }
+  .note.err { background:#ff6b6b18; border:1px solid #ff6b6b55; color:var(--err); }
+  .again { margin-top:14px; text-align:center; }
+  footer { text-align:center; margin-top:22px; color:#64748b; font-size:13px; }
+  footer a { color:var(--teal); text-decoration:none; }
+
+  main.wide { max-width:1240px; }
+  nav { display:flex; justify-content:center; gap:8px; margin-bottom:20px; }
+  nav button { background:#ffffff0d; border:1px solid #ffffff1a; color:var(--mut); padding:9px 20px; border-radius:999px; cursor:pointer; font-weight:600; font-size:14px; transition:.15s; }
+  nav button.on { background:linear-gradient(135deg,var(--teal),var(--teal2)); color:var(--navy); border-color:transparent; }
+  nav button:not(.on):hover { color:var(--txt); background:#ffffff18; }
+  #tab-table { display:none; }
+  .tools { display:flex; gap:10px; align-items:center; margin-bottom:14px; flex-wrap:wrap; }
+  .tools input { flex:1; min-width:200px; background:#0d1b2a; border:1px solid #ffffff22; color:var(--txt); padding:10px 14px; border-radius:10px; font-size:14px; outline:none; }
+  .tools input:focus { border-color:var(--teal); }
+  .count { color:var(--mut); font-size:13px; }
+  .tw { overflow:auto; max-height:68vh; border-radius:12px; border:1px solid #ffffff14; }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th { position:sticky; top:0; background:#0b1623; color:var(--teal); text-align:left; padding:10px 12px; font-size:12px; text-transform:uppercase; letter-spacing:.4px; white-space:nowrap; z-index:1; }
+  td { padding:10px 12px; border-top:1px solid #ffffff0d; white-space:nowrap; max-width:260px; overflow:hidden; text-overflow:ellipsis; }
+  tr.row { cursor:pointer; } tr.row:hover td { background:#ffffff08; }
+  tr.detail td { white-space:normal; background:#0b162366; color:var(--mut); max-width:none; font-size:13px; line-height:1.5; }
+  tr.detail b { color:var(--txt); }
+  .badge { display:inline-block; min-width:44px; text-align:center; padding:3px 9px; border-radius:999px; font-weight:700; font-size:12.5px; }
+  .b-hi { background:#00c9a722; color:#2ee6c5; } .b-mid { background:#fbbf2422; color:var(--warn); } .b-lo { background:#ff6b6b22; color:var(--err); }
+  .pill { font-size:12px; color:var(--mut); }
+  .empty { text-align:center; padding:40px; color:var(--mut); }
+  .link { color:var(--teal); font-weight:600; text-decoration:none; } .link:hover { text-decoration:underline; }
+
+  .topbar { display:flex; justify-content:flex-end; align-items:center; gap:10px; margin-bottom:10px; color:var(--mut); font-size:14px; }
+  .topbar .btn { padding:7px 13px; position:relative; }
+  #nb { position:absolute; top:-6px; right:-6px; background:var(--err); color:#fff; border-radius:999px; font-size:11px; padding:1px 6px; }
+  #notifs { display:none; position:fixed; right:16px; top:60px; width:min(360px,92vw); max-height:60vh; overflow:auto; z-index:5; background:#0b1623; border:1px solid #ffffff22; border-radius:12px; padding:8px; box-shadow:0 20px 50px #000a; }
+  #notifs div { padding:9px 10px; border-bottom:1px solid #ffffff10; font-size:13px; } #notifs small { color:var(--mut); display:block; }
+  #notifs .new { border-left:3px solid var(--teal); }
+  #tab-req { display:none; } .st { font-size:12px; font-weight:700; padding:3px 9px; border-radius:999px; }
+  .st.pending { background:#fbbf2422; color:var(--warn); } .st.accepted { background:#00c9a722; color:#2ee6c5; } .st.refused { background:#ff6b6b22; color:var(--err); }
+</style>
+</head>
+<body>
+<main id="main">
+  <div class="topbar"><span id="who"></span><button class="btn" onclick="toggleNotifs()">🔔<b id="nb" hidden></b></button><button class="btn" onclick="logout()">Déconnexion</button></div>
+  <div id="notifs"></div>
+  <header>
+    <div class="logo">🕵️</div>
+    <h1>CV <span>Anonymiser</span></h1>
+    <p>Dépose un CV, récupère une version masquée en PDF. 100&nbsp;% local.</p>
+  </header>
+
+  <nav>
+    <button id="nav-up" class="on" onclick="showTab('up')">📄 Anonymiser</button>
+    <button id="nav-req" onclick="showTab('req')">🔑 Demandes d'accès <span id="rbadge" class="pill"></span></button>
+    <button id="nav-table" onclick="showTab('table')">📊 Tableau <span id="nbadge" class="pill"></span></button>
+  </nav>
+
+  <div id="tab-up">
+  <section class="card" id="up">
+    <label id="drop">
+      <span class="big">📄</span>
+      <div><b>Glisse ton CV ici</b> ou clique pour choisir</div>
+      <small>PDF · DOCX · TXT · MD · images scannées</small>
+      <input type="file" id="file" accept=".pdf,.docx,.txt,.md,.png,.jpg,.jpeg">
+    </label>
+    <div id="proc" style="display:none">
+      <div id="fname"></div>
+      <ul id="steps"></ul>
+    </div>
+    <div id="error" class="note err" style="display:none;margin:14px 0 0"></div>
+  </section>
+
+  <section class="card" id="result">
+    <div class="ok"><i>✓</i> CV anonymisé prêt</div>
+    <div id="warn" class="note warn" style="display:none"></div>
+    <div id="score" class="note" style="display:none;background:#00c9a712;border:1px solid #00c9a744"></div>
+    <div class="btns">
+      <a id="open" class="btn primary" target="_blank">Ouvrir le PDF</a>
+      <a id="dl" class="btn" download>Télécharger</a>
+      <button id="copy" class="btn">Copier le lien</button>
+      <button class="btn" onclick="showTab('table')">Voir dans le tableau</button>
+    </div>
+    <iframe id="prev" title="Aperçu"></iframe>
+    <div class="again"><button class="btn" onclick="reset()">Anonymiser un autre CV</button></div>
+  </section>
+
+  </div>
+
+  <section class="card" id="tab-req"><div class="tw" id="reqs"></div></section>
+
+  <section class="card" id="tab-table">
+    <div class="tools">
+      <input id="q" placeholder="🔎 Rechercher (nom, titre, ville, réf…)" oninput="renderTable()">
+      <span class="count" id="count"></span>
+      <button class="btn" onclick="loadTable()">↻ Actualiser</button>
+      <a class="btn" href="/excel">⬇ Excel</a>
+    </div>
+    <div class="tw"><table id="tbl"></table></div>
+  </section>
+
+  <footer>Traitement par Ollama sur ta machine · <a href="/docs">API</a></footer>
+</main>
+
+<script>
+const STEPS = ["Lecture du document", "Extraction des informations (IA)", "Masquage en crochets [NOM], [ENTREPRISE]…", "Réécriture au style de référence (IA)", "Génération Word → PDF + Excel"];
+const $ = id => document.getElementById(id);
+const drop = $("drop"), file = $("file");
+let timer = null;
+
+drop.addEventListener("dragover", e => { e.preventDefault(); drop.classList.add("over"); });
+drop.addEventListener("dragleave", () => drop.classList.remove("over"));
+drop.addEventListener("drop", e => { e.preventDefault(); drop.classList.remove("over"); if (e.dataTransfer.files[0]) send(e.dataTransfer.files[0]); });
+file.addEventListener("change", () => file.files[0] && send(file.files[0]));
+
+function renderSteps(n) {
+  $("steps").innerHTML = STEPS.map((s, i) =>
+    `<li class="step ${i < n ? "done" : i === n ? "active" : ""}"><span class="dot">${i < n ? "✓" : i + 1}</span>${s}</li>`).join("");
+}
+
+async function send(f) {
+  $("error").style.display = "none";
+  drop.style.display = "none"; $("proc").style.display = "block"; $("steps").style.display = "block";
+  $("fname").textContent = "📎 " + f.name;
+  let n = 0; renderSteps(0);
+  // l'API répond en une fois : la progression est indicative (le LLM prend le plus de temps)
+  const delays = [2500, 60000, 1500, 60000];
+  const tick = () => { if (n < STEPS.length - 1) { n++; renderSteps(n); timer = setTimeout(tick, delays[n] ?? 3000); } };
+  timer = setTimeout(tick, delays[0]);
+  try {
+    const fd = new FormData(); fd.append("file", f);
+    const r = await fetch("/upload", { method: "POST", body: fd });
+    const j = await r.json();
+    clearTimeout(timer);
+    if (!r.ok) throw new Error(j.detail || "Erreur serveur");
+    renderSteps(STEPS.length);
+    setTimeout(() => showResult(j), 500);
+  } catch (e) {
+    clearTimeout(timer);
+    $("error").textContent = "❌ " + e.message; $("error").style.display = "block";
+    $("proc").style.display = "none";
+    drop.style.display = "block"; file.value = "";
+  }
+}
+
+function showResult(j) {
+  $("up").style.display = "none"; $("result").style.display = "block";
+  $("open").href = j.pdf_url; $("dl").href = j.pdf_url; $("prev").src = j.pdf_url;
+  $("copy").onclick = () => { navigator.clipboard.writeText(j.pdf_url); $("copy").textContent = "Lien copié ✓"; };
+  const sc = $("score");
+  sc.innerHTML = `📊 Fidélité : <b>${j.score}/100</b> (extraction ${j.score_extraction} · dossier ${j.score_dossier})`
+    + (j.manquants && j.manquants !== "rien" ? `<br><small style="color:var(--mut)">${j.manquants}</small>` : "");
+  sc.style.display = "block";
+  if (j.excel_error) { $("warn").textContent = "⚠️ " + j.excel_error; $("warn").style.display = "block"; }
+  if (j.leaks && j.leaks.length) {
+    $("warn").textContent = "⚠️ Données possiblement restantes : " + j.leaks.join(", ");
+    $("warn").style.display = "block";
+  }
+}
+
+function reset() {
+  $("result").style.display = "none"; $("up").style.display = "block";
+  $("proc").style.display = "none"; drop.style.display = "block"; file.value = "";
+  $("copy").textContent = "Copier le lien"; $("warn").style.display = "none"; $("score").style.display = "none"; $("prev").src = "about:blank";
+}
+
+// ── Onglet Tableau (lecture de l'Excel) ──────────────────────
+let TABLE = { headers: [], rows: [] };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function showTab(t) {
+  $("tab-up").style.display = t === "up" ? "block" : "none";
+  $("tab-table").style.display = t === "table" ? "block" : "none";
+  $("tab-req").style.display = t === "req" ? "block" : "none"; $("nav-req").classList.toggle("on", t === "req");
+  if (t === "req") loadReqs();
+  $("nav-up").classList.toggle("on", t === "up"); $("nav-table").classList.toggle("on", t === "table");
+  $("main").classList.toggle("wide", t === "table");
+  if (t === "table") loadTable();
+}
+
+async function loadTable() {
+  $("tbl").innerHTML = `<tr><td class="empty">Chargement…</td></tr>`;
+  try {
+    const r = await fetch("/api/excel"); if (r.status === 401) location.href = "/login"; const j = await r.json();
+    if (!r.ok) throw new Error(j.detail);
+    TABLE = j; $("nbadge").textContent = j.rows.length ? `(${j.rows.length})` : ""; renderTable();
+  } catch (e) { $("tbl").innerHTML = `<tr><td class="empty" style="color:var(--err)">❌ ${esc(e.message)}</td></tr>`; }
+}
+
+function renderTable() {
+  const H = TABLE.headers, ix = n => H.indexOf(n), q = $("q").value.toLowerCase().trim();
+  const rows = TABLE.rows.filter(r => !q || r.join(" ").toLowerCase().includes(q)).slice().reverse(); // récents d'abord
+  $("count").textContent = `${rows.length} CV`;
+  if (!rows.length) { $("tbl").innerHTML = `<tr><td class="empty">${TABLE.rows.length ? "Aucun résultat" : "Aucun CV traité pour l'instant"}</td></tr>`; return; }
+  const g = (r, n) => r[ix(n)] ?? "";
+  const badge = v => v === "" || v === null ? `<span class="pill">—</span>`
+    : `<span class="badge ${v >= 85 ? "b-hi" : v >= 70 ? "b-mid" : "b-lo"}">${v}</span>`;
+  let html = `<thead><tr><th>Réf.</th><th>Date</th><th>Fichier</th><th>Candidat</th><th>Titre</th><th>Email</th><th>Tél.</th><th>Ville</th><th>Score</th><th>Fuites</th><th>CV anonymisé</th></tr></thead><tbody>`;
+  rows.forEach((r, i) => {
+    const leaks = g(r, "Fuites détectées");
+    html += `<tr class="row" onclick="document.getElementById('d${i}').hidden=!document.getElementById('d${i}').hidden">
+      <td>${esc(g(r, "Réf. consultant"))}</td><td>${esc(g(r, "Date"))}</td><td title="${esc(g(r, "Fichier d'origine"))}">${esc(g(r, "Fichier d'origine"))}</td>
+      <td>${esc(g(r, "Prénom"))} ${esc(g(r, "Nom"))}</td><td>${esc(g(r, "Titre"))}</td><td>${esc(g(r, "Email"))}</td>
+      <td>${esc(g(r, "Téléphone"))}</td><td>${esc(g(r, "Ville"))}</td><td>${badge(g(r, "Score fidélité /100"))}</td>
+      <td>${leaks && leaks !== "aucune" ? `<span class="badge b-mid">${esc(leaks)}</span>` : `<span class="pill">aucune</span>`}</td>
+      <td><a class="link" href="/cv/${esc(g(r, "ID"))}.pdf" target="_blank" onclick="event.stopPropagation()">Ouvrir ↗</a></td></tr>
+      <tr class="detail" id="d${i}" hidden><td colspan="11"><b>Compétences :</b> ${esc(g(r, "Compétences")) || "—"}<br>
+      <b>Éléments manquants / suspects :</b> ${esc(g(r, "Éléments manquants / suspects")) || "—"}</td></tr>`;
+  });
+  $("tbl").innerHTML = html + "</tbody>";
+}
+loadTable();
+
+// ── Demandes d'accès, notifications, session ─────────────────
+const ST = { pending: "⏳ En attente", accepted: "✅ Acceptée", refused: "⛔ Refusée" };
+async function loadReqs() {
+  const r = await fetch("/api/esm/requests"); const rs = await r.json();
+  const n = rs.filter(x => x.status === "pending").length; $("rbadge").textContent = n ? `(${n})` : "";
+  $("reqs").innerHTML = rs.length ? `<table><thead><tr><th>Entreprise</th><th>Profil</th><th>Message</th><th>Date</th><th>Statut</th><th></th></tr></thead><tbody>${rs.map(q => `<tr>
+    <td>${esc(q.company_name)}<br><span class="pill">${esc(q.company_email)}</span></td><td>${esc(q.ref)}<br><span class="pill">${esc(q.titre)}</span></td>
+    <td style="white-space:normal">${esc(q.message) || "—"}</td><td>${esc(q.created_at.replace("T", " "))}</td><td><span class="st ${q.status}">${ST[q.status]}</span></td>
+    <td>${q.status === "pending" ? `<button class="btn primary" onclick="answer(${q.id},'accepted')">Accepter</button> <button class="btn" onclick="answer(${q.id},'refused')">Refuser</button>` : ""}</td></tr>`).join("")}</tbody></table>`
+    : `<div class="empty">Aucune demande d'accès.</div>`;
+}
+async function answer(id, status) {
+  await fetch("/api/esm/requests/" + id, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status }) }); loadReqs();
+}
+async function loadNotifs() {
+  const r = await fetch("/api/notifications"); if (!r.ok) return; const ns = await r.json(), unread = ns.filter(n => !n.read).length;
+  $("nb").hidden = !unread; $("nb").textContent = unread;
+  $("notifs").innerHTML = ns.length ? ns.map(n => `<div class="${n.read ? "" : "new"}">${esc(n.message)}<small>${esc(n.created_at.replace("T", " "))}</small></div>`).join("") : `<div>Aucune notification.</div>`;
+  if (ns.some(n => !n.read && n.kind === "demande_acces")) loadReqs();
+}
+async function toggleNotifs() {
+  const open = $("notifs").style.display !== "block"; $("notifs").style.display = open ? "block" : "none";
+  if (open) { await fetch("/api/notifications/read", { method: "POST" }); setTimeout(loadNotifs, 1500); }
+}
+async function logout() { await fetch("/auth/logout", { method: "POST" }); location.href = "/login"; }
+(async () => { const r = await fetch("/auth/me"); if (r.ok) $("who").textContent = (await r.json()).name; loadNotifs(); loadReqs(); setInterval(loadNotifs, 20000); })();
+</script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+{
+  "_note": "'entree' = CV d'origine FICTIF déjà masqué en crochets (étape 1) ; 'sortie' = dossier attendu (étape 2), transcrit de reference/cv_reference.png.",
+  "entree": {
+    "identite": {
+      "titre": "Data Analyst"
+    },
+    "profil": "Data analyst chez [ENTREPRISE_1], passionné de BI.",
+    "experiences": [
+      {
+        "poste": "Data Analyst",
+        "entreprise": "[ENTREPRISE_1]",
+        "lieu": "[VILLE]",
+        "debut": "2022",
+        "fin": "",
+        "description": [
+          "Conception de 25 tableaux de bord Power BI pour la direction des risques de [ENTREPRISE_1] (suivi des crédits immobiliers).",
+          "Automatisation des reportings réglementaires mensuels en Python : de 3 jours à 2 heures.",
+          "Mise en place d'un dictionnaire de données et de règles de qualité (taux d'erreur divisé par 4).",
+          "Stack : Power BI, DAX, SQL Server, Python (pandas), Azure DevOps"
+        ]
+      },
+      {
+        "poste": "Analyste BI",
+        "entreprise": "[ENTREPRISE_2]",
+        "lieu": "[VILLE]",
+        "debut": "2020",
+        "fin": "2022",
+        "description": [
+          "Suivi de la production et des rebuts : création d'un datamart et de 12 rapports Qlik Sense pour l'usine [ENTREPRISE_2].",
+          "Analyse des temps d'arrêt machines : recommandations ayant réduit les arrêts de 15 %.",
+          "Formation de 40 utilisateurs aux outils de BI en libre-service.",
+          "Outils : Qlik Sense, PostgreSQL, Talend, Excel / VBA"
+        ]
+      },
+      {
+        "poste": "Stagiaire Data",
+        "entreprise": "[ENTREPRISE_3]",
+        "lieu": "[VILLE]",
+        "debut": "2019",
+        "fin": "2019",
+        "description": [
+          "Nettoyage et analyse des données adhérents de [ENTREPRISE_3] ; étude de l'attrition (régression logistique).",
+          "R, SQL, Excel"
+        ]
+      }
+    ],
+    "formations": [
+      {
+        "diplome": "Master MIAGE, parcours Data Science",
+        "etablissement": "[ETABLISSEMENT_1]",
+        "lieu": "[VILLE]",
+        "annee": "2019",
+        "details": ""
+      },
+      {
+        "diplome": "Licence de Mathématiques appliquées",
+        "etablissement": "[ETABLISSEMENT_2]",
+        "lieu": "[VILLE]",
+        "annee": "2017",
+        "details": ""
+      }
+    ],
+    "competences": [
+      "SQL (avancé)",
+      "Power BI",
+      "DAX",
+      "Qlik Sense",
+      "Python (pandas, scikit-learn, matplotlib)",
+      "gouvernance des données",
+      "RGPD",
+      "Agile Scrum"
+    ],
+    "langues": [
+      {
+        "langue": "Anglais",
+        "niveau": "courant"
+      },
+      {
+        "langue": "Allemand",
+        "niveau": "intermédiaire"
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified : Power BI Data Analyst Associate (PL-300) — 2023",
+      "Scrum Fundamentals Certified — 2021"
+    ]
+  },
+  "sortie": {
+    "titre": "Data Analyst — Business Intelligence & Data Visualisation",
+    "annees_experience": 5,
+    "synthese": "Ce profil, avec 5 ans d'expérience dans la banque et l'industrie, transforme des données brutes en tableaux de bord décisionnels avec Power BI et SQL. Ce profil a automatisé des reportings réglementaires en réduisant le temps de traitement de 3 jours à 2 heures, et a amélioré la qualité des données en divisant le taux d'erreur par 4.",
+    "competences_cles": [
+      "SQL (avancé)",
+      "Power BI",
+      "DAX",
+      "Qlik Sense",
+      "Python (pandas, scikit-learn, matplotlib)",
+      "gouvernance des données",
+      "RGPD",
+      "Agile Scrum"
+    ],
+    "experiences": [
+      {
+        "poste": "Data Analyst",
+        "secteur": "Banque",
+        "debut": "2022",
+        "fin": "aujourd'hui",
+        "realisations": [
+          "Conception de 25 tableaux de bord Power BI pour la direction des risques (suivi des crédits immobiliers).",
+          "Automatisation des reportings réglementaires mensuels en Python : de 3 jours à 2 heures.",
+          "Mise en place d'un dictionnaire de données et de règles de qualité (taux d'erreur divisé par 4)."
+        ],
+        "environnement": "Power BI, DAX, SQL Server, Python (pandas), Azure DevOps"
+      },
+      {
+        "poste": "Analyste BI",
+        "secteur": "Industrie",
+        "debut": "2020",
+        "fin": "2022",
+        "realisations": [
+          "Suivi de la production et des rebuts : création d'un datamart et de 12 rapports Qlik Sense.",
+          "Analyse des temps d'arrêt machines : recommandations ayant réduit les arrêts de 15 %.",
+          "Formation de 40 utilisateurs aux outils de BI en libre-service."
+        ],
+        "environnement": "Qlik Sense, PostgreSQL, Talend, Excel / VBA"
+      },
+      {
+        "poste": "Stagiaire Data",
+        "secteur": "Mutuelle / santé",
+        "debut": "2019",
+        "fin": "",
+        "realisations": [
+          "Nettoyage et analyse des données adhérents ; étude de l'attrition (régression logistique)."
+        ],
+        "environnement": "R, SQL, Excel"
+      }
+    ],
+    "formations": [
+      {
+        "annee": "2019",
+        "diplome": "Master MIAGE, parcours Data Science",
+        "type_etablissement": "Université"
+      },
+      {
+        "annee": "2017",
+        "diplome": "Licence de Mathématiques appliquées",
+        "type_etablissement": "Université"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Anglais",
+        "niveau": "courant"
+      },
+      {
+        "langue": "Allemand",
+        "niveau": "intermédiaire"
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified : Power BI Data Analyst Associate (PL-300) — 2023",
+      "Scrum Fundamentals Certified — 2021"
+    ]
+  }
+}
